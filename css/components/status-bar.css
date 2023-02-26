@@ -3,9 +3,14 @@
 }
 
 .status-bar {
+    font-size: small;
     display: flex;
     justify-content: center;
     padding : 5px 3px;
+    position: fixed;
+    top: 0;
+    width: 100%;
+    background-color: white;
 
 }
 
