@@ -19,21 +19,6 @@
     color: #2e363e; 
 }
 
-.nav__notification {
-    background-color: tomato;
-    width: 15px;
-    height: 15px;
-    border-radius: 7.5px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    color: white;
-    font-weight: 400;
-    font-size: 5px;
-    position: absolute;
-    left: 10px;
-    bottom: 10px;
-}
 
 .nav__dot {
     background-color: tomato;
@@ -44,4 +29,10 @@
     position: absolute;
     left: 20px;
     bottom: 15px;
+}
+
+.nav__notification {
+    position: absolute;
+    left: 10px;
+    bottom: 10px;
 }

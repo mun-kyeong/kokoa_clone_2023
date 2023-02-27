@@ -9,6 +9,7 @@
 @import "components/screen-header.css";
 @import "components/friends.css";
 @import "components/user-component.css";
+@import "components/badge.css";
 
 /* screens */
 @import "screens/login.css";
@@ -16,4 +17,8 @@
 body {
     color: #2e363e;
     font-family: 'Golos Text', sans-serif;
+}
+
+.main-screen{
+    padding: 0px var(--horizontal-space);
 }
