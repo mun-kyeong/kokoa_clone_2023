@@ -4,6 +4,7 @@
     align-items: center;
     padding: 40px 20px 20px 20px;
     margin-bottom: 10px;
+    position: relative;
 }
 .screen-header__title {
     font-size:  20px;
@@ -16,12 +17,11 @@
 
 .screen-header__icons {
     display: flex;
-    position: relative;
 
 }
 
 
 .screen-header__dot {
-    left: 70px;
-    bottom: 17px;
+    left: 325px;
+    bottom: 40px;
 }

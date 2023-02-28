@@ -29,6 +29,12 @@
     color: rgba(0, 0, 0, 0.5);
 }
 
+.user-component__subtitle i {
+    color: tomato;
+    opacity: 70%;
+
+}
+
 .user-component__avatar--xl{
     width: 55px;
     height: 55px;
