@@ -13,3 +13,15 @@
 .screen-header__icons span {
     margin-left: 20px;
 }
+
+.screen-header__icons {
+    display: flex;
+    position: relative;
+
+}
+
+
+.screen-header__dot {
+    left: 70px;
+    bottom: 17px;
+}
