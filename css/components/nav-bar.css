@@ -39,3 +39,16 @@
     bottom: 10px;
 }
 
+
+.nav__dot-lg{
+    background-color: tomato;
+    font-size: 10px;
+    color: white;
+    width: 10px;
+    height: 10px;
+    border-radius: 10px;
+    text-align: center;
+    margin-left: 5px;
+    align-items: center;
+    padding: 2px;
+}
