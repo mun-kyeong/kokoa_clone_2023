@@ -17,11 +17,27 @@
 
 .screen-header__icons {
     display: flex;
+    position: relative;
 
 }
 
 
 .screen-header__dot {
-    left: 325px;
-    bottom: 40px;
+    position: inherit;
+    left: 0px;
+    bottom: 5px;
+
+}
+
+@keyframes rotateCog{
+    from{
+        transform: none;        
+    }
+    to{
+        transform: rotateZ(360deg);
+    }
+}
+
+.screen-header__icons .fa-gear:hover{
+    animation: rotateCog 3s linear infinite;
 }
